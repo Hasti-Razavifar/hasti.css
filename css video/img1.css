@@ -1,0 +1,45 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid black;
+    padding:  10px 10px;
+    position: relative;
+}
+.corner-box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.corner-box.top-left{
+  
+ position: absolute;
+width: 100px;
+height: 100px;
+background-color: aqua;
+}
+.corner-box.top-right{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    right: 10px; 
+    top: 10px;  
+}
+.corner-box.bottom-left{
+    position: absolute;
+width: 100px;
+height: 100px;
+background-color: aqua;
+left: 10px;
+bottom: 10px;
+}
+.corner-box.bottom-right{
+    position: absolute;
+width: 100px;
+height: 100px;
+background-color: aqua;
+right:10px;
+bottom:10px;
+}

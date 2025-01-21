@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 20vh;
+   
+}
+.heart{
+  position: relative;
+  width: 302px;
+  height: 270px;
+  margin: auto;
+
+}
+ .box{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    display: inline-block;
+
+ }
+ .special{
+    visibility: hidden;
+ }
+
+
+
+ 
+
+  
+
+

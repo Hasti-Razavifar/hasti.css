@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+   
+}
+.chessboard{
+    width: 26rem;
+    height: 26rem;
+    background-color: white;
+    font-size: 0;
+    line-height: 0;
+    margin: 3rem auto;
+
+}
+.square{
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+}
+.black{
+    background-color: black;
+}
+.gray{
+    background-color: gray;
+}
+.row{
+   display: block;
+}
